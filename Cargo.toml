@@ -1,0 +1,10 @@
+[package]
+name = "sycamore-fmt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+proc-macro2 = { version = "1.0", features = ["span-locations"] } 
+quote = "1.0"
+once_cell = "1.8.0"
